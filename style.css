@@ -10,15 +10,13 @@
 
 /* Login Section */
 
-
-.login-page{
+.login-page {
   height: 100vh;
   display: flex;
   font-size: 16px;
-
 }
 
-.login-left{
+.login-left {
   background-image: url(./images/login-image.WEBP);
   background-size: cover;
   background-position: center;
@@ -32,37 +30,36 @@
   width: 50%;
 }
 
-.login-left-content{
+.login-left-content {
   margin-bottom: 102px;
   flex-basis: 70%;
 }
 
-.login-left-content > h1{
-  color: #FFF;
+.login-left-content > h1 {
+  color: #fff;
   margin-bottom: 32px;
   font-family: Inter;
   font-size: 3.54em;
 }
 
-.login-page-button{
+.login-page-button {
   padding: 12px 22px;
   border-radius: 4px;
   border: 0px;
 }
 
-.frame-8{
+.frame-8 {
   width: 324px;
 }
 
-.login-right{
+.login-right {
   display: flex;
   width: 50%;
   justify-content: center;
   align-items: center;
-
 }
 
-.sign-in{
+.sign-in {
   display: flex;
   flex-direction: column;
 }
@@ -71,59 +68,52 @@
   gap: 64px;
 }
 
-.form{
+.form {
   display: flex;
   gap: 24px;
-
 }
 
-.email-field, .password-field{
+.email-field,
+.password-field {
   gap: 12px;
   border-radius: 4px;
-
 }
 
-.sign-in > input{
+.sign-in > input {
   padding: 10px 12px;
-
 }
 
-.sign-in > button{
-  background: #1E1E1E;
-  color: #EEE;
+.sign-in > button {
+  background: #1e1e1e;
+  color: #eee;
 }
 
 @media (max-width: 900px) {
-
-  .login-page{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 852px;
-      width:100vw;
-      /* font-size: ; */
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 852px;
+    width: 100vw;
+    /* font-size: ; */
   }
 
-  .login-page > *{
-      height: 50%;
-      width:100%;
+  .login-page > * {
+    height: 50%;
+    width: 100%;
   }
 
-  .login-left-content{
-      margin-bottom: 4.125em;
-
+  .login-left-content {
+    margin-bottom: 4.125em;
   }
 
-
-  .login-left-content > h1{
-      font-size: 2em;
+  .login-left-content > h1 {
+    font-size: 2em;
   }
 
-
-  .frame-8{
-      width: 100%;
-      margin: 10px;
-
+  .frame-8 {
+    width: 100%;
+    margin: 10px;
   }
 }
 
@@ -135,6 +125,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 70px 0;
+
 }
 
 .blog-head {
@@ -310,6 +302,29 @@ input:hover {
   line-height: 20px;
   text-align: left;
   color: #667085;
+}
+
+.loadmore {
+  background-color: #eae0f8;
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+.loadmore button {
+  background-color: transparent;
+  border: none;
+  color: #6941c6;
+cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 @media only screen and (min-width: 990px) {
