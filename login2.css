@@ -1,0 +1,42 @@
+.login2 {
+  background-image: url(./images/Rectangle_1.WEBP);
+  background-size: cover;
+  background-position: top center ;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.text_overlay {
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.text_overlay h1 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text_overlay p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+@media only screen and (min-width: 990px) {
+    .text_overlay {
+        max-width: 600px;
+        gap: 46.289px;
+        bottom: 245px;
+        left: 156px;
+    }
+}

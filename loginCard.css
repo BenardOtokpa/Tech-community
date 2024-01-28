@@ -1,0 +1,41 @@
+.container2 {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding:100px  10px;
+}
+.login-card {
+  background-color: white;
+  max-width: 500px;
+}
+.login-card img {
+  max-width: 100%;
+}
+.text {
+  padding: 30px;
+}
+.text h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  color: #1e1e1e;
+  padding-bottom: 10px;
+}
+.text p {
+  font-size: 16px;
+  color: #1e1e1e;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 990px) {
+    .container2{
+        flex-direction: row;
+        padding: 100px;
+    }
+  }
